@@ -1,4 +1,4 @@
-# pawsitive
+# PAWSITIVE
 
 💻 This is the submission for the Girls Hoo Hacks Hackathon 2021. <br />
 🏆 The team won the Best Social Good category <br />
