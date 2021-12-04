@@ -1,0 +1,89 @@
+/* Bootstrap Padding Fix */
+[class*="col-"]{
+    padding: 2rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #2c7da0, #013a63);
+    padding: 0 !important;
+
+}
+.navbar-brand img{
+    height: 60px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 40px;;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    font-size: 20px;
+}
+.navbar-nav li a:hover{
+    color: #fcbf49 !important;
+}
+.navbar-toggler{
+    outline: none !important;
+    margin-right: 10px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 50%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px 10px #000;
+    padding-bottom: 1rem;
+    color: crimson;
+}
+.btn-primary{
+    background-color: #6648b1;
+    border: 1px solid #563d7c;
+    font-weight: 900;
+}
+.btn-primary:hover{
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+}
+.btn-outline-light{
+    font-weight: 900;
+}
+footer{
+    width: 100%;
+    background-image: linear-gradient(to left, #2c7da0, #013a63);
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+footer h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+
+/*# sourceMappingURL=/home.871e090d.css.map */

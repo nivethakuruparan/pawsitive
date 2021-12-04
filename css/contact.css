@@ -1,0 +1,86 @@
+/* Bootstrap Padding Fix */
+[class*="col-"]{
+    padding: 2rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #f0efeb, #f0efeb);
+}
+
+/* nav styling, from index.html */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #2c7da0, #013a63);
+    padding: 0 !important;
+
+}
+.navbar-brand img{
+    height: 60px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 40px;;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    font-size: 20px;
+}
+.navbar-nav li a:hover{
+    color: #fcbf49 !important;
+}
+.navbar-toggler{
+    outline: none !important;
+    margin-right: 10px;
+}
+
+/* to make consistent with index.html */
+#forms{
+    background-image: linear-gradient(to right, #e2ece9, #e2ece9);
+    color: #000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#banner
+{
+    background-image: linear-gradient(to right, #fff1e6, #fff1e6);
+    color: #000;
+    padding-top: 1%;
+    justify-content: center;
+    align-items: center;
+}
+#banner img{
+    width: 300px;
+}
+.notable{
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+textarea{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    background-image: linear-gradient(to left, #2c7da0, #013a63);
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+footer h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold; 
+}

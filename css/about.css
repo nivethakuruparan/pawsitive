@@ -1,0 +1,97 @@
+/* Bootstrap Padding Fix */
+[class*="col-"]{
+    padding: 2rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #f0efeb, #f0efeb);
+}
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #2c7da0, #013a63);
+    padding: 0 !important;
+
+}
+.navbar-brand img{
+    height: 60px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 40px;;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    font-size: 20px;
+}
+.navbar-nav li a:hover{
+    color: #fcbf49 !important;
+}
+.navbar-toggler{
+    outline: none !important;
+    margin-right: 10px;
+}
+/* Banner Section */
+#banner
+{
+    background-image: linear-gradient(to right, #f0efeb, #f0efeb);
+    color: #000;
+    padding-top: 1%;
+}
+.promo-title
+{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 5px !important;
+}
+#banner a 
+{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+}
+#banner img{
+    width: 400px;
+    margin-top: 30px !important;
+}
+.btn-default {
+    color: #fff;
+    background-color: #9fa0ff;
+    border: #9fa0ff; 
+    margin-top: 60px;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background-color: #757bc8;
+    color:#fff;
+    border-color: #757bc8;
+}
+.col-lg-6{
+    align-items: center;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    background-image: linear-gradient(to left, #2c7da0, #013a63);
+    color: white;
+    bottom: 0;
+    padding-top: 1%;
+    position: absolute;
+}
+footer h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold; 
+}

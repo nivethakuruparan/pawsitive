@@ -1,0 +1,119 @@
+/* Bootstrap Padding Fix */
+[class*="col-"]{
+    padding: 2rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #2c7da0, #013a63);
+    padding: 0 !important;
+
+}
+.navbar-brand img{
+    height: 60px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 40px;;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    font-size: 20px;
+}
+.navbar-nav li a:hover{
+    color: #fcbf49 !important;
+}
+.navbar-toggler{
+    outline: none !important;
+    margin-right: 10px;
+}
+/* Banner Section */
+#banner
+{
+    background-image: linear-gradient(to right, #fff1e6, #fff1e6);
+    color: #000;
+    padding-top: 1%;
+}
+.promo-title
+{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 30px !important;
+}
+#banner a 
+{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+}
+#banner img{
+    width: 300px;
+}
+.btn-default {
+    color: #fff;
+    background-color: #ffba08;
+    border: #ffba08; 
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background-color: #f48c06;
+    color:#fff;
+    border-color: #f48c06;
+}
+.col-lg-6{
+    align-items: center;
+    text-align: center;
+}
+#forms{
+    background-image: linear-gradient(to right, #e2ece9, #e2ece9);
+    color: #000;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.animal-title{
+    font-size: 24px;
+    margin-top: 5px !important;
+    margin-left: 2px !important;
+}
+#result{
+    background-image: linear-gradient(to right, #cddafd, #cddafd);
+    color: #000;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.list-group-item{
+    background-color: #e2ece9;
+    color: #013a63;
+}
+
+.card{
+    color: #013a63;
+}
+footer{
+    width: 100%;
+    background-image: linear-gradient(to left, #2c7da0, #013a63);
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+footer h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+
+
+
+
