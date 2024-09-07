@@ -10,7 +10,7 @@
 ## Run Locally
 
 ### In Terminal
-1. `https://github.com/nivetha-kuruparan/pawsitive.git`
+1. `git clone https://github.com/nivethakuruparan/pawsitive.git`
 2. `cd pawsitive`
 3. `npm i -g parcel-bundler`
 
